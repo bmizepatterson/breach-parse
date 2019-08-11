@@ -61,7 +61,7 @@ else
         _fill=$(printf "%${_done}s")
         _empty=$(printf "%${_left}s")
 
-        printf "\rProgress : [${_fill// /\#}${_empty// /-}] ${_progress}%%"
+        printf "\rProgress : [${_fill// /#}${_empty// /-}] ${_progress}%%"
 
     }
 
